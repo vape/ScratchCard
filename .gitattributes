@@ -1,0 +1,47 @@
+* text=auto eol=lf
+
+# Text
+*.cs text
+*.asset text
+*.meta text
+*.mat text
+*.anim text
+*.controller text
+*.json text
+*.shadergraph text
+*.hlsl text
+*.unity text
+*.preset text
+*.prefab text
+*.xml text
+*.level-pack text
+*.h text
+*.m text
+*.asmdef text
+*.spriteatlas text
+
+# Graphics
+*.png binary
+*.psd binary
+*.psb binary
+*.jpg binary
+*.blastmap binary
+*.fbx binary
+
+# Audio
+*.wav binary
+
+# Fonts
+*.ttf binary
+**/Fonts*/**/*.asset -diff -merge
+
+# Libs
+*.a binary
+*.aar binary
+*.jar binary
+*.dll binary
+*.mdb binary
+*.bundle binary
+*.so binary
+*.srcaar binary
+*.exe binary
