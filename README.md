@@ -5,12 +5,11 @@ Scratch card effect for Unity UI (UGUI)
 <img src="https://github.com/vape/ScratchCard/blob/screenshots/Screenshots/anim.gif?raw=true" alt="Scratch Card Animation" width="100%"/>
 </div>
 
-
 # How to use
 
 ## Installation
 
-Repository is a package, so you can install it via package manager or by copying entire repository into your project
+Repository is a package, so you can install it via package manager or by copying ```Runtime``` directory into your project
 
 ## Usage
 
