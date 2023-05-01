@@ -1,0 +1,16 @@
+{
+    "name": "ScratchCard.Sample",
+    "rootNamespace": "ScratchCard.Sample",
+    "references": [
+        "GUID:46cb2af099437974e9e6dd01fd22237e"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

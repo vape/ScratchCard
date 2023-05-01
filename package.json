@@ -4,5 +4,12 @@
   "description": "UI Scratch card",
   "version": "1.0.0",
   "unity": "2020.1",
-  "author": "Artem Sokolov <sokolov.artem@hotmail.com>"
+  "author": "Artem Sokolov <sokolov.artem@hotmail.com>",
+  "samples": [
+    {
+        "displayName": "Sample Scene",
+        "description": "Demo scene with different types of brushes",
+        "path": "Samples~"
+    }
+  ]
 }
