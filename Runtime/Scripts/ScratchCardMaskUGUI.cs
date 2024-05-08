@@ -178,18 +178,24 @@ namespace ScratchCard
             }
         }
 
+        private void ClearTargetWithColor(Color color)
+        {
+            var tmp = RenderTexture.active;
+            RenderTexture.active = targetTexture;
+            GL.Clear(true, true, color);
+            RenderTexture.active = tmp;
+        }
+
         private void ClearTexture()
         {
             if (baseTexture != null)
             {
+                ClearTargetWithColor(Color.clear);
                 Graphics.Blit(baseTexture, targetTexture, Image.material);
             }
             else
             {
-                var tmp = RenderTexture.active;
-                RenderTexture.active = targetTexture;
-                GL.Clear(true, true, Color.white);
-                RenderTexture.active = tmp;
+                ClearTargetWithColor(Color.white);
             }
         }
 
